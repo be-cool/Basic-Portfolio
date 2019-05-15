@@ -1,0 +1,11 @@
+* {
+    /* border: 2px solid red; */
+    background-image: url("connectwork.png");
+    overflow: auto;
+    text-decoration-color: #777777;
+    font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.tab {
+    float: right;
+}
