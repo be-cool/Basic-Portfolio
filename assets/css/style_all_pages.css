@@ -1,11 +1,29 @@
 * {
     /* border: 2px solid red; */
-    background-image: url("connectwork.png");
+    background-image: url("../images/Sports.png");
     overflow: auto;
     text-decoration-color: #777777;
     font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .tab {
-    float: right;
+    float: left;
+    margin-top: 25px;
+    margin-left: 1100px;
+}
+
+.tablinks {
+    padding: 5;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    background: none;
+}
+
+.header{
+    float: left;
+}
+
+.myname {
+    float: left;
 }

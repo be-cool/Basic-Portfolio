@@ -9,17 +9,22 @@
 </head>
 
 <body>
-    <div>
-        <!-- trying to use this box to fill in the space to the left of where my name should be -->
-        <box> </box>
-            <h2>Ben Cooley</h2>
-            <!-- still need to figure out how to make the buttons not buttons, but on the tab -->
-            <div class="tab">
-                <button class="tablinks" onclick= "window.location.href = 'index.html'">About</button>
-                <button class="tablinks" onclick= "window.location.href = 'portfolio.html'">Portfolio</button>
-                <button class="tablinks" onclick= "window.location.href = 'contact.html'">Contact</button>
-            </div>
-    </div>
+        <div>
+            <!-- trying to use this box to fill in the space to the left of where my name should be -->
+            <!-- need to make a bigger container so that it can contain all of these divs within it to styalize it better and within one bar
+            as of right now, they are on two different lines because they arent in that bigger, encompassing div -->
+            <box class="header"> 
+                <box class="myname">
+                    <h2>Ben Cooley</h2>
+                </box>
+                <!-- still need to figure out how to make the buttons not buttons, but on the tab -->
+                <div class="tab">
+                    <button class="tablinks" onclick= "window.location.href = 'index.html'">About</button>
+                    <button class="tablinks" onclick= "window.location.href = 'portfolio.html'">Portfolio</button>
+                    <button class="tablinks" onclick= "window.location.href = 'contact.html'">Contact</button>
+                </div>
+            </box>
+        </div>
 
     <div>
             <!-- trying to make another box for the text and image section in middle of page here -->
