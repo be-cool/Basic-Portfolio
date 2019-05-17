@@ -1,15 +1,23 @@
 * {
     /* border: 2px solid red; */
-    background-image: url("../images/Sports.png");
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
     overflow: auto;
+}
+
+body {
+    background-image: url("../images/Sports.png");
     text-decoration-color: #777777;
     font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .tab {
-    float: left;
-    margin-top: 25px;
-    margin-left: 1100px;
+    float: right;
+    /* margin-top: 25px; */
+    margin-right: 232px;
+    text-align: center;
+    vertical-align: auto;
+    height: 75px;
 }
 
 .tablinks {
@@ -18,12 +26,33 @@
     border-bottom: none;
     border-top: none;
     background: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .header{
     float: left;
+    background-color:#ffffff;
+    z-index: 2;
+    height: 75px;
+    width: 100%;
 }
 
 .myname {
     float: left;
+    width: 180px;
+    background-color: #4aaaa5;
+    text-align: center;
+    margin-left: 232px;
+}
+
+.main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    background-color: #ffffff;
+}
+
+footer {
+    text-align: center;    
 }
