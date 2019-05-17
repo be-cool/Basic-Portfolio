@@ -1,22 +1,20 @@
 * {
-    /* border: 2px solid red; */
     /* background-repeat: repeat-x; */
     /* background-repeat: repeat-y; */
     overflow: auto;
 }
 
 body {
-    background-image: url("../images/Sports.png");
-    text-decoration-color: #777777;
+    background-image: url("../images/memphis-mini-dark.png");
+    /* text-decoration-color: #777777; */
     font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .tab {
     float: right;
-    /* margin-top: 25px; */
+    margin-top: -25px;
     margin-right: 232px;
     text-align: center;
-    vertical-align: auto;
     height: 75px;
 }
 
@@ -34,19 +32,27 @@ body {
     float: left;
     background-color:#ffffff;
     z-index: 2;
-    height: 75px;
+    height: 60px;
     width: 100%;
 }
 
 .myname {
     float: left;
     width: 180px;
+    height: 60px;
     background-color: #4aaaa5;
     text-align: center;
     margin-left: 232px;
+    text-decoration-color: #ffffff;
+}
+
+.title {
+    border-bottom: #666666 5px;
 }
 
 .main {
+    margin-top: 50px;
+    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     width: 960px;
@@ -55,4 +61,15 @@ body {
 
 footer {
     text-align: center;    
+    margin-top: 50px;
+    background-color: #666666;
+    border-top: #4aaaa5;
+    height: 50px;
+    float: inline-end;
+}
+
+h2 {
+    border: #666666;
+    /* text-shadow: 0 0 black; */
+    /* text-shadow: 0 0 black; */
 }
