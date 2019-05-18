@@ -1,0 +1,42 @@
+h6 {
+    text-decoration-color: whitesmoke;
+    background-color: #4aaaa5;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+}
+
+.title {
+    margin-left: 10px;
+}
+
+.pic1{
+    float: left;
+    /* margin-right: px; */
+    margin-left: 10px;
+    margin-bottom: 35px;
+}
+.pic2{
+    float: left;
+    margin-right: 200px;
+    margin-left: 25px;
+    margin-bottom: 35px;
+}
+.pic3{
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 35px;
+}
+.pic4{
+    float: left;
+    margin-right: 200px;
+    margin-left: 25px;
+    margin-bottom: 35px;
+}
+.pic5{
+    margin-left: 10px;
+}
+
+.hm {
+    /* position: absolute; */
+}
