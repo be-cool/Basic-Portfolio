@@ -22,16 +22,17 @@ input[type=email] {
     align-self: center;
 }
 
-input[type=msg] {
+#msg {
     position: relative;
     width: 98%;
     padding: 12px 20px;
     margin: 8px 9px 9px 10px;
     display: inline-block;
     border: 1px solid #ccc;
-    border-radius: 100px;
+    border-radius: 4px;
     box-sizing: border-box;
     align-self: center;
+    height: 200px;
 }
 label {
     margin-left: 10px;
@@ -41,7 +42,15 @@ label {
     margin-left: 10px;
 }
 
-input[type=sumbit] {
-    margin-left: 10px;
-    margin-bottom: 10px;
+#submit {
+    background-color: #4aaaa5;
+    color: whitesmoke;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    height: 25px;
+    width: 75px;
+}
+
+#submit:hover{
+    background-color: orangered;
 }

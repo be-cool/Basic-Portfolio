@@ -8,6 +8,7 @@ h6 {
     padding-top: 14px;
     padding-bottom: 8px;
     margin-top: 190px;
+    font-size: 1rem;
 }
 
 .title {
@@ -24,16 +25,25 @@ h6 {
     margin-left: 30px;
     margin-bottom: 35px;
 }
+.pic1:hover{
+    opacity: 0.7;
+}
 .pic2{
     float: left;
     margin-right: 200px;
     margin-left: 50px;
     margin-bottom: 35px;
 }
+.pic2:hover{
+    opacity: 0.7;
+}
 .pic3{
     float: left;
     margin-left: 30px;
     margin-bottom: 35px;
+}
+.pic3:hover{
+    opacity: 0.7;
 }
 .pic4{
     float: left;
@@ -41,9 +51,15 @@ h6 {
     margin-left: 50px;
     margin-bottom: 35px;
 }
+.pic4:hover{
+    opacity: 0.7;
+}
 .pic5{
     float: left;
     margin-left: 30px;
+}
+.pic5:hover{
+    opacity: 0.7;
 }
 
 input{
